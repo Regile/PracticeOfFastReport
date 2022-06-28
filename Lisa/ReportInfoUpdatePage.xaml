@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lisa.ReportInfoUpdatePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lisa"
+        mc:Ignorable="d"
+        Title="ReportInfoUpdatePage" Height="334" Width="605">
+    <Grid Margin="0,0,40,13">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="527*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name ="textBox1" HorizontalAlignment="Left" Height="28" Margin="34,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="162" Grid.Column="1"/>
+        <TextBox Name ="textBox2" HorizontalAlignment="Left" Height="28" Margin="34,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="162" Grid.Column="1"/>
+        <TextBox Name ="textBox3" HorizontalAlignment="Left" Height="28" Margin="34,124,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="234" RenderTransformOrigin="3.471,0.573" Grid.Column="1"/>
+        <TextBox Name ="textBox4" HorizontalAlignment="Left" Height="92" Margin="31,172,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="237" Grid.Column="1"/>
+        <Button Content="Обновить" HorizontalAlignment="Left" Height="57" Margin="318,207,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click" Grid.Column="1"/>
+
+    </Grid>
+</Window>

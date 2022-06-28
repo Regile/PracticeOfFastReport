@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="06/28/2022 09:05:18" ReportInfo.Modified="06/28/2022 10:50:07" ReportInfo.CreatorVersion="1.0.0.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqJUrEa/KIcQqhhcfnlqC6PKK8MheP9IEu4gFWCPXnWzFgLjPP39mqhm6WKckRi90qfWFHDc7eZn2VVrd1T5h+hYN6/GS04/zXFV0x6wfUtWwUBBo/8GmtZLYyFKJYqDakJUUkwY35RWDo3EIyhr/poCXlQpP9fQk03L/emttuPiYltiw3feYs0zb6RRw5p4M35qs0IQx3I9/TB9roAWGGQA==">
+      <TableDataSource Name="report_info" DataType="System.Int32" Enabled="true" TableName="report_info">
+        <Column Name="id" DataType="System.Int32"/>
+        <Column Name="name" DataType="System.String"/>
+        <Column Name="date_of_creating" DataType="System.DateTime"/>
+        <Column Name="description" DataType="System.String"/>
+        <Column Name="path" DataType="System.String"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Left="66.15" Top="9.45" Width="94.5" Height="18.9" Text="ПРимер" Font="Arial, 10pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="Text3" Left="160.65" Width="94.5" Height="18.9" Text="id" Font="Arial, 10pt"/>
+      <TextObject Name="Text2" Left="292.95" Width="94.5" Height="18.9" Text="name" Font="Arial, 10pt"/>
+      <TextObject Name="Text7" Left="425.25" Width="113.4" Height="18.9" Text="date_of_creating" Font="Arial, 10pt"/>
+      <TextObject Name="Text9" Left="548.1" Width="94.5" Height="18.9" Text="description" Font="Arial, 10pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="75.6" DataSource="report_info">
+      <TextObject Name="Text4" Left="151.2" Top="28.35" Width="94.5" Height="18.9" Text="[report_info.id]" Font="Arial, 10pt"/>
+      <TextObject Name="Text5" Left="292.95" Top="28.35" Width="94.5" Height="18.9" Text="[report_info.name]" Font="Arial, 10pt"/>
+      <TextObject Name="Text6" Left="434.7" Top="28.35" Width="94.5" Height="18.9" Text="[report_info.date_of_creating]" Format="Date" Format.Format="d" Font="Arial, 10pt"/>
+      <TextObject Name="Text8" Left="548.1" Top="28.35" Width="94.5" Height="18.9" Text="[report_info.description]" Font="Arial, 10pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="153.75" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>
