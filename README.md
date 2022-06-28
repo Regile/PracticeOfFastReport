@@ -12,15 +12,19 @@
 Пример работы.
 
 Главное окно:
+
 ![image](https://user-images.githubusercontent.com/75294650/176224885-a97a85b0-50da-4fa4-8657-f2ee9b2bb3d2.png)
 
 Добавление собственного отчета:
+
 ![image](https://user-images.githubusercontent.com/75294650/176225196-bd85c656-3924-4a0a-b6ff-d440f7202d42.png)
 
 Отображение отчета в списке:
+
 ![image](https://user-images.githubusercontent.com/75294650/176225313-c5763b76-9480-4830-be14-494e120bf045.png)
 
 Редактирование информации об отчете:
+
 ![image](https://user-images.githubusercontent.com/75294650/176226090-11834be7-01c9-436d-b3ed-5b8ca4e8d5bd.png)
 
 Кнопка "Редактировать отчет" открывает редактор отчетов. 
